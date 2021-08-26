@@ -1,4 +1,10 @@
 // ----------- JavaScript Puro -----------
+window.onload = function() {
+    var pre = document.getElementById('preloader');
+    pre.style.visibility = 'hidden';
+    pre.style.opacity = '0';
+}
+
 //Para Seccion de Header
 window.addEventListener("scroll", function(){
     const header = document.querySelector('header');
