@@ -85,7 +85,7 @@ let tween = gsap.from('.mi-info', {
     y: -200,
     scale: 0,
     stagger: 0.5,
-    delay: 1
+    delay: 2
 });
 
 
