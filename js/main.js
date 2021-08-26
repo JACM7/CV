@@ -139,12 +139,6 @@ sr.reveal('.img-skill', {
     distance: '-200px'
 })
 
-sr.reveal('.info-programa', {
-    duration: 2000,
-    origin: 'right',
-    distance: '-300px'
-})
-
 sr.reveal('.programa', {
     duration: 2000,
     origin: 'bottom',
