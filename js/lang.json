@@ -1,6 +1,7 @@
 {
     "es": {
         "tra-cam":"Cambiar",
+        "tra-des":"Desarrollador Front End",
         "tra-edad":"Mexicano de 21 años",
         "tra-obj":"Objetivo",
         "tra-obj-text":"Gestionar un crecimiento personal y profesional en base a mi desempeño laboral, superando todas las expectativas con actitud entusiasta y positiva, con el fin de cumplir mis metas profesionales y personales.",
@@ -14,7 +15,7 @@
         "tra-exp2-text3":"Labores desempeñadas:",
         "tra-exp2-text4":"Recepción de Material, Inventario y Entrega de Material.",
         "tra-est":"Estudios",
-        "tra-est1-esc1":"CURSO BEDU",
+        "tra-est1-esc1":"CURSO",
         "tra-est1-esc2":"Desarrollo Web",
         "tra-est1-esc3":"Somos una plataforma de especialización en habilidades emergentes con el objetivo de preparar profesionales y empresas para los retos del futuro y los que se viven a diario.",
         "tra-est1-esc4":"Click aqui",
@@ -53,6 +54,7 @@
 
     "en": {
         "tra-cam":"Change",
+        "tra-des":"Front End Developer",
         "tra-edad":"Mexican, 21 years old",
         "tra-obj":"Object", 
         "tra-obj-text":"Manage personal and professional growth based on my work performance, exceding all expectations with an enthusiastic and positive attitude, in order to achieve my professional and personal goals.",
@@ -66,7 +68,7 @@
         "tra-exp2-text3":"Work performed:",
         "tra-exp2-text4":"Receipt of Material, Inventory and Delivery of Material.",
         "tra-est":"Education",
-        "tra-est1-esc1":"Course BEDU",
+        "tra-est1-esc1":"Course",
         "tra-est1-esc2":"Web Development",
         "tra-est1-esc3":"We are a platform for specialisation in emerging skills with the aim of preparing professionals and companies for the challenges of the future and those that are experienced on a daily basis.",
         "tra-est1-esc4":"Click Here",
