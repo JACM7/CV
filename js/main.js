@@ -24,6 +24,30 @@ function scrollToTop(){
     })
 }
 
+// Para Seleccionar idioma
+const flecha = document.querySelector('.flecha');
+flecha.addEventListener('click',() => {
+    document.querySelector('.select').classList.toggle('activo');
+});
+
+$.getJSON('js/lang.json', function(json) {
+    if(!localStorage.getItem("lang")) {
+        localStorage.setItem("lang", "es");
+    }
+    let def = localStorage.getItem("lang");
+    $('.lang').each(function(index, value) {
+        $(this).text(json[def][$(this).attr('key')]);
+    });
+
+    $('.traducir').click(function() {
+        let lang = $(this).attr('id');
+        localStorage.setItem("lang", lang);
+        $('.lang').each(function(index, value) {
+            $(this).text(json[lang][$(this).attr('key')]);
+        });
+    });
+});
+
 
 // ----------- JQuery -----------
 // Card 1
